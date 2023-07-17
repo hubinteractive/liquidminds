@@ -1,0 +1,14 @@
+@import '../mixin/mixin';
+@import url('../../../static/css/fonts.css');
+h1 {
+    font-size: $base-font-size;
+}
+
+.fs-50 {
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--neon-silver);
+}
