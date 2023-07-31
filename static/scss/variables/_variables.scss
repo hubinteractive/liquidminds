@@ -40,6 +40,23 @@
     // font size
 }
 
+// Liquidminds color
+:root {
+    --bg-grainsboro: rgba(218, 218, 218, 1);
+    --bg-smoky-black: rgba(15, 17, 16, 1);
+    --bg-smoky-black-seondary: rgba(15, 17, 16, 72);
+    --bg-white-smoke: rgba(242, 242, 242, 1);
+    --primary-white: rgba(255, 255, 255, .92);
+    --secondary-white: rgba(255, 255, 255, .52);
+    --anti-flash-white: rgba(239, 239, 239, 1);
+    --primary-dark: rgba(0, 0, 0, 1);
+    --deep-cerise: rgba(237, 0, 140, 1);
+    --modal-white: rgba(255, 255, 255, .72);
+    --lm-tangelo: rgba(255, 76, 0, 1);
+    --ufo-green: rgba(89, 206, 114, 1);
+    --font-lm-tangelo:
+}
+
 $base-font-size: 8.5rem;
 
 /* customize primary dark */
@@ -71,6 +88,14 @@ a {
 
 .dark-byzantine-blue {
     color: var(--dark-byzantine-blue) !important;
+}
+
+.tangelo {
+    color: var(--lm-tangelo)!important;
+}
+
+.anti-flash-white {
+    color: var(--anti-flash-white);
 }
 
 .deep-cerise {
